@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    background-color: #3b2e5a;
+}
+
+.topic {
+    border: 2px solid #d3d615;
+    padding-bottom: -9px;
+    display: flex;
+    margin-top: 84px;
+    margin-left: 369px;
+    margin-right: 369px;
+    padding-bottom: 166px;
+    border-radius: 62px;
+}
+
+.btn-primary {
+    margin: auto;
+    margin-left: 182px;
+    margin-top: 145px;
+    padding: 50px;
+    width: 271px;
+    border: 7px solid #2196F3;
+    border-radius: 45px;
+    outline: none;
+    text-align: center;
+    font-size: 36px;
+}

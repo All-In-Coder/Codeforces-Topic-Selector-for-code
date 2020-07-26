@@ -1,0 +1,10 @@
+Topic = ["implementation", "dp", "math", "greedy", "brute force", 
+		"Data Structure", "constructive algorithms",
+		"dfs and similar", "sorting", "binary search",
+		"graphs", "trees", "strings", "geometry", "combinatorics",
+		"Two Pointers", "DSU", "bitmask", "probabilities", 
+		"shortest path", "hashiing", "divide and Conquer", "games",
+		"matrices", "flows", "string suffix structures", "fft",
+		"expression parsing", "graph matchings", "ternary search",
+		"meet-in-the-middle", "2-sat", "chinese remainder theorem",
+		"schedules"]
