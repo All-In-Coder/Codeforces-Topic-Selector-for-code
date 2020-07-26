@@ -9,4 +9,5 @@ Topic = ["implementation", "dp", "math", "greedy", "brute force",
          "meet-in-the-middle", "2-sat", "chinese remainder theorem",
          "schedules"]
 
-Company = ["Amazon", "Directi"]
+Company = ["Amazon", "Directi", "Goldman Sachs", "IBM",
+           "Google", "FlipKart", "Microsoft"]

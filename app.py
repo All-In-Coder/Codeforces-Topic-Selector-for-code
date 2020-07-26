@@ -14,7 +14,7 @@ def home():
 def topic():
     index = random.randint(0, len(Topic)) % (len(Topic))
     topic = Topic[index]
-    company = Company[random.randint(0, 2)%2]
+    company = Company[random.randint(0, len(Company))%len(Company)]
 
     return render_template("topic.html", topic=topic, company=company)
 
