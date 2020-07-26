@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from Topic_Selector import Topic
+from Topic_Selector import Topic, Company
 import random
 
 app = Flask(__name__)
@@ -14,8 +14,9 @@ def home():
 def topic():
     index = random.randint(0, len(Topic)) % (len(Topic))
     topic = Topic[index]
+    company = Company[random.randint(0, 2)%2]
 
-    return render_template("topic.html", topic=topic)
+    return render_template("topic.html", topic=topic, company=company)
 
 
 if __name__ == "__main__":
